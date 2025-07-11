@@ -1,6 +1,9 @@
-# Organize
+# Nextjs Boilerplate
 
-Este é um projeto Next.js com uma estrutura de pastas organizada e uma lista de dependências e versões.
+Este repositório é o meu boilerplate para construir aplicações fullstack com Nextjs. 😃
+Reuni todas as tecnologias que utilizo visando trazer recursos modernos e eficientes. Dentre elas
+estão ferramentas para lidar com persistência (drizzle orm), autenticação (better auth), testes e UI. Fique à vontade
+para sugerir novas ferramentas abrindo uma issue, e para contribuir com o projeto.
 
 ## Dependências
 
