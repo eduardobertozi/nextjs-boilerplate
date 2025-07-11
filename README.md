@@ -53,3 +53,21 @@ Aqui está a lista de comandos disponíveis no projeto:
 - `npm run start`: inicia o servidor de produção
 - `npm run test`: executa os testes do projeto
 - `npm run lint`: executa o linter do projeto
+
+## Instruções de arquitetura de projeto
+
+- `app`: todos os módulos / rotas do projeto
+  [!importante!]() prefixar subpastas com `_`
+  - `_components`: componentes do módulo
+  - `_actions`: funções servidor do módulo
+  - `_hooks`: hooks do módulo
+  -
+- `actions`: funções servidor utilizadas no projeto
+- `components`: componentes React utilizados no projeto
+  - `ui`: componentes UI utilizados no projeto
+  -
+- `lib`: funções e utilitários relacionados à dependências do projeto
+- `database`: recursos de banco de dados utilizados no projeto
+- `providers`: providers utilizados no projeto
+- `hooks`: hooks utilizados no projeto
+- `utils`: utilitários utilizados no projeto
